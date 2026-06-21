@@ -10,9 +10,9 @@ bash "$CLAUDE_PLUGIN_ROOT/scripts/setup-claude-code.sh"
 ```
 
 The script writes sane defaults to `~/.claude/settings.json`:
-- Preferred model: claude-sonnet-4-6
-- Editor: code-insiders
-- Shell integration enabled
+- `model`: "sonnet"
+- `effortLevel`: "high"
+- `verbose`: true
 
 If `~/.claude/settings.json` already exists, it merges rather than overwrites — existing keys are preserved and only missing keys are added.
 

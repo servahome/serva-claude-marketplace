@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-PLUGIN_DIR="$(dirname "$0")/.."
+PLUGIN_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 ZSHRC_TEMPLATE="$PLUGIN_DIR/configs/zshrc.template"
 
 # oh-my-zsh

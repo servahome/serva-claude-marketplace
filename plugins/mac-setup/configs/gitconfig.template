@@ -1,0 +1,47 @@
+[user]
+	name = PLACEHOLDER_NAME
+	email = PLACEHOLDER_EMAIL
+
+[core]
+	autocrlf = input
+	editor = code-insiders --wait
+	pager = bat --style=plain
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = false
+
+[push]
+	autoSetupRemote = true
+
+[fetch]
+	prune = true
+
+[merge]
+	tool = vscode-insiders
+	conflictstyle = diff3
+
+[mergetool "vscode-insiders"]
+	cmd = code-insiders --wait $MERGED
+
+[diff]
+	tool = vscode-insiders
+	colorMoved = default
+
+[difftool "vscode-insiders"]
+	cmd = code-insiders --wait --diff $LOCAL $REMOTE
+
+[color]
+	ui = auto
+
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	lg = log --oneline --graph --decorate --all
+	undo = reset HEAD~1 --mixed
+	unstage = reset HEAD --
+	last = log -1 HEAD --stat
+	aliases = config --get-regexp alias

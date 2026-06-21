@@ -1,12 +1,12 @@
 {
   "name": "mac-setup",
-  "version": "0.1.0",
-  "description": "Interactive Mac development environment setup — editor defaults, terminal, shell, Claude Code, and macOS theme",
+  "version": "0.2.0",
+  "description": "Interactive Mac development environment setup — Brew, fonts, editor defaults, terminal, shell, git config, Claude Code, and macOS theme",
   "author": {
     "name": "Vineeth Soma",
     "email": "vineethsoma@gmail.com"
   },
   "homepage": "https://github.com/servahome/serva-claude-marketplace",
   "repository": "https://github.com/servahome/serva-claude-marketplace",
-  "keywords": ["mac", "setup", "developer", "environment", "macos"]
+  "keywords": ["mac", "setup", "developer", "environment", "macos", "ghostty", "zsh", "homebrew", "git"]
 }

@@ -5,10 +5,9 @@ SETTINGS_FILE="$HOME/.claude/settings.json"
 mkdir -p "$HOME/.claude"
 
 DEFAULTS='{
-  "model": "claude-sonnet-4-6",
-  "preferredNotifChannel": "terminal",
-  "editor": "code-insiders",
-  "shellIntegration": true
+  "model": "sonnet",
+  "effortLevel": "high",
+  "verbose": true
 }'
 
 if [ -f "$SETTINGS_FILE" ]; then

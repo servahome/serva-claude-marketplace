@@ -1,0 +1,32 @@
+# Core shell & search tools
+brew "git"
+brew "gh"
+brew "jq"
+brew "fzf"
+brew "ripgrep"
+brew "fd"
+brew "bat"
+brew "eza"
+brew "zoxide"
+brew "thefuck"
+brew "duti"
+
+# Shell framework & theme
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+brew "powerlevel10k"
+
+# Dev tools
+brew "node"
+brew "python"
+brew "go"
+
+# Terminal
+cask "ghostty"
+
+# Editor
+cask "visual-studio-code-insiders"
+
+# Fonts
+cask "font-jetbrains-mono"
+cask "font-jetbrains-mono-nerd-font"
