@@ -1,7 +1,7 @@
 {
   "name": "serva-claude-marketplace",
   "description": "Claude Code plugins for the Serva homelab ecosystem",
-  "author": {
+  "owner": {
     "name": "Vineeth Soma",
     "email": "vineethsoma@gmail.com"
   },
