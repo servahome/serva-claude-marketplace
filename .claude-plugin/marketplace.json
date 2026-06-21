@@ -1,18 +1,21 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "serva-claude-marketplace",
   "description": "Claude Code plugins for the Serva homelab ecosystem",
   "owner": {
     "name": "Vineeth Soma",
     "email": "vineethsoma@gmail.com"
   },
-  "repository": "https://github.com/servahome/serva-claude-marketplace",
   "plugins": [
     {
       "name": "mac-setup",
-      "path": "plugins/mac-setup",
-      "description": "Interactive Mac development environment setup — editor defaults, terminal, shell, Claude Code, and macOS theme",
-      "version": "0.2.0",
-      "keywords": ["mac", "setup", "developer", "environment", "macos", "ghostty", "zsh"]
+      "description": "Interactive Mac development environment setup — Brew, fonts, editor defaults, terminal, shell, git config, Claude Code, and macOS theme",
+      "author": {
+        "name": "Vineeth Soma"
+      },
+      "category": "development",
+      "source": "./plugins/mac-setup",
+      "homepage": "https://github.com/servahome/serva-claude-marketplace/tree/main/plugins/mac-setup"
     }
   ]
 }
