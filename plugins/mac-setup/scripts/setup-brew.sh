@@ -9,5 +9,5 @@ if ! command -v brew &>/dev/null; then
 fi
 
 echo "  Running brew bundle from plugin Brewfile..."
-brew bundle --file="$BREWFILE" --no-lock
+brew bundle --file="$BREWFILE"
 echo "  All packages installed."
